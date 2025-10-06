@@ -64,8 +64,4 @@ app.post('/api/checkout', (req, res) => {
   }
 });
 
-app.get('/api/health', (req, res) => {
-  res.status(200).json({success: true, message: 'Server is running'});
-});
-
 module.exports = app;
